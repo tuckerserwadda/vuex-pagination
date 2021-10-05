@@ -10,6 +10,7 @@ import "primevue/resources/themes/saga-blue/theme.css"
 import "primevue/resources/primevue.min.css"
 import "primeicons/primeicons.css" 
 import Column from 'primevue/column';
+import InputText from 'primevue/inputtext';
 import ColumnGroup from 'primevue/columngroup'; 
 
 createApp(App)
@@ -21,4 +22,5 @@ createApp(App)
 .component('DataTable', DataTable)
 .component('Column', Column)
 .component('ColumnGroup', ColumnGroup)
+.component('InputText', InputText)
 .mount("#app");
