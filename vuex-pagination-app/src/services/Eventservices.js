@@ -7,7 +7,7 @@
 import axios from "axios";
 // create a client-api(connect to the api)
 const apiClient = axios.create({
-    baseURL:"https://my-json-server.typicode.com/tuckerserwadda/real-world-vue-db",
+    baseURL:"http://localhost:3000",
     withCredentials: false,
     headers:{
         Accept:"application/json",
@@ -19,6 +19,17 @@ export default{
     // get all events(get method)
     getEvents(){
         return apiClient.get("/events")
+    },
+    // delete event
+    deleteEvent(id){
+        return apiClient.delete("/events/" +id)
+    },
+    //edit event
+    editEvent(event){
+        return apiClient.put("/events/"+ event.id, event)
+    } ,
+    // add new event
+    addEvent(event){
+        return apiClient.post("/events/", event)
     }
-
 }

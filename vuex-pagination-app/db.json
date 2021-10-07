@@ -1,0 +1,36 @@
+{
+  "events": [
+    {
+      "id": 123,
+      "category": "animal welfare",
+      "title": "Cat Adoption Day",
+      "description": "Find your new feline friend at this event.",
+      "location": "Meow Town",
+      "date": "January 28, 2022",
+      "time": "12:00",
+      "organizer": "Kat Laydee"
+    },
+    {
+      "id": 156,
+      "category": "electronics",
+      "title": "twiter",
+      "description": "Join us as we tend to the community edible plants.",
+      "location": "Flora City",
+      "date": "March 14, 2022",
+      "time": "10:00",
+      "organizer": "Fern Pollin"
+    },
+    {
+      "title": "dog",
+      "description": "its a good dog",
+      "category": "food",
+      "id": "Rkr63"
+    },
+    {
+      "title": "buy a abulb",
+      "category": "electronics",
+      "description": "a good bulb ",
+      "id": "V9iIp"
+    }
+  ]
+}

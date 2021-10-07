@@ -13,8 +13,10 @@ import "primeicons/primeicons.css"
 import Column from 'primevue/column';
 import MultiSelect from 'primevue/multiselect';
 import InputText from 'primevue/inputtext';
+import Textarea from 'primevue/textarea';
 import Toolbar from 'primevue/toolbar';
 import Dialog from 'primevue/dialog';
+import RadioButton from 'primevue/radiobutton';
 import ColumnGroup from 'primevue/columngroup'; 
 
 createApp(App)
@@ -28,7 +30,9 @@ createApp(App)
 .component('Column', Column)
 .component('ColumnGroup', ColumnGroup)
 .component('InputText', InputText)
+.component('Textarea', Textarea)
 .component('MultiSelect', MultiSelect)
 .component('Toolbar', Toolbar)
 .component('Dialog', Dialog)
+.component('RadioButton', RadioButton)
 .mount("#app");
